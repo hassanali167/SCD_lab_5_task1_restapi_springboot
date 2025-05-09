@@ -5,7 +5,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Table;
 
-
 @Entity
 @Table(name = "\"order\"")  // Escape the table name with double quotes
 public class Order {
